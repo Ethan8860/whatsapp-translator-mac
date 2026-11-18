@@ -1,79 +1,60 @@
 # WhatsApp Translator for Mac
 
-**Read English and Spanish messages in Chinese. Write replies in Chinese and translate them into English or Spanish.**
+**Read and reply in Chinese, English or Spanish — directly alongside WhatsApp.**
 
-[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.2.12/WhatsApp-Translator-0.2.12-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
+[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.0/WhatsApp-Translator-0.3.0-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
 
-A companion app for the **WhatsApp desktop app on macOS**, powered by Apple's on-device translation. No translation API key or per-request translation fees.
+A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.3.0 · build 300**.
 
-The app's interface is currently in **Simplified Chinese**. It is designed for Chinese-speaking users chatting with English- and Spanish-speaking contacts; it is not a general-purpose translator for every language pair.
+## Choose your languages
 
-## What it does
+- **Interface language:** Chinese, English or Spanish, independently of translation settings.
+- **Reading and input language:** the language you read translations in and write your drafts in.
+- **Reply language:** the language your draft should become. Select 中文 / EN / ES above the conversation. If it matches your input language, drafts stay unchanged.
 
-- **Read incoming messages:** English and Spanish text appears as Chinese translations in a panel beside WhatsApp.
-- **Reply in Chinese:** type directly in WhatsApp, choose English or Spanish in the companion panel, and pause typing for **5 seconds** to translate the draft.
-- **Stay in control:** review and send the message yourself. The assistant never sends messages automatically.
-- **Pause or undo:** pause translation while composing, or restore the Chinese draft with Undo. If the assistant is still active, the restored draft translates again after 5 seconds of inactivity.
-- **Keep the conversation visible:** the panel follows the WhatsApp window, can collapse, and hides when you switch to another app.
-- **Compare with the original:** show source text, retry individual translations, or import exported chat text to read older messages.
+All six translation directions between Simplified Chinese, English and Spanish have returned results in app-context tests. English↔Spanish drafts, Undo, Pause and Resume were also tested in a real WhatsApp composer. This is not a guarantee of translation accuracy.
 
-## Requirements
+## How it works
 
-| Requirement | Supported |
-|---|---|
-| Computer | Apple Silicon Mac — M-series chips |
-| Operating system | macOS 26 or later |
-| WhatsApp | Native macOS desktop app |
-| Translation languages | English/Spanish → Simplified Chinese; Chinese → English/Spanish |
-| App interface | Simplified Chinese |
+1. Open a WhatsApp conversation. Loaded text appears in a translation panel beside the window.
+2. Write in your selected input language directly in WhatsApp. After **5 seconds without typing**, the assistant replaces the draft with a translation.
+3. Review it, then send it yourself. **The assistant never sends messages automatically.**
 
-Intel Macs, Windows, mobile devices and WhatsApp Web are not supported by this build.
+Pause while thinking or composing. Undo restores the original draft; if translation remains active, it translates again after 5 seconds of inactivity. The panel follows WhatsApp, collapses when needed and hides when you switch apps. Compare originals or import exported chat text for older history.
 
-## Download and install
+## Install
 
-Current version: **v0.2.12 — build 212**.
+Requires an **Apple Silicon Mac, macOS 26 or later**, and the native WhatsApp app. Intel Macs, Windows, mobile devices, WhatsApp Web and other messaging clients are not supported by this release.
 
-1. [Download the DMG](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.2.12/WhatsApp-Translator-0.2.12-Mac.dmg).
-2. Open it and drag **WhatsApp Bilingual.app** into **Applications**. This is the installed application's name.
-3. Launch it from Applications. Follow setup to grant **Accessibility** permission in macOS System Settings.
-4. Prepare the Apple translation language packs for Chinese, English and Spanish. The initial download requires an internet connection.
-5. Optionally enable launch at login, then open a WhatsApp conversation.
+1. Download the DMG and drag **WhatsApp Bilingual.app** into **Applications**.
+2. Open the app and choose interface, reading/input and reply languages.
+3. Grant Accessibility permission in System Settings. Prepare and test the selected Apple language packs; initial downloads require internet access.
+4. Optionally enable launch at login, then choose Start Using WhatsApp.
 
-Prefer a package you can share? [Download the ZIP with the installer and Chinese instructions](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.2.12/WhatsApp-Translator-0.2.12-Mac-Package.zip).
+[Shareable installer ZIP](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.0/WhatsApp-Translator-0.3.0-Mac-Package.zip) includes Chinese and English instructions in the guide.
 
-**macOS installation notice:** the app does not yet have Apple Developer ID signing or notarization. macOS or your organization's security policy may block it. Ask your IT administrator to review it, or wait for a signed release. Do not disable system security protections to install it.
+The app is locally signed, without Apple Developer ID signing or notarization. macOS or company policies may block it. Ask your IT administrator to review it or wait for a signed release; do not disable system security protections.
 
-## Quick reference for the Chinese interface
+## Updates
 
-| Label | Meaning |
-|---|---|
-| 英文 / 西语 | English / Spanish reply target |
-| 原文对照 | Show original text alongside translations |
-| 暂停助手 / 继续助手 | Pause / Resume translation |
-| 撤销翻译 | Restore the current Chinese draft |
-| 导入记录 | Import exported chat text |
-| 设置与语言包 | Settings and language packs |
+Open **More → Check for Updates**. The check anonymously reads public GitHub release information. If a newer version is available, View Release opens its download page. **One-click installation and automatic background update notifications are not implemented yet.**
 
-## Privacy and cost
+To update, quit the assistant and replace the app in Applications. Keep the same installed application name/path to retain settings and launch-at-login behavior. macOS may require refreshing its Accessibility permission after a signature change.
 
-Translation runs locally using Apple's Translation framework. No paid translation account, API key, Codex or Xcode installation is required.
+## Privacy and limits
 
-Chat text, imported text and translations are processed in memory during the current app session. This project does not upload them to a translation server. Language-pack downloads connect to Apple; release downloads connect to GitHub.
+Translation is processed locally; chat text, imported records and translations stay in memory for the running session. The assistant does not upload chat content to a translation server. Apple supplies language packs; GitHub supplies update information and downloads. No Codex, Xcode or paid translation account is needed.
 
-Accessibility permission lets the assistant read WhatsApp messages and replace the current draft. Sending remains your action.
+- Machine translation may misread short phrases, names or tone. Review important amounts, dates and commitments.
+- Live reading covers currently loaded text, not the entire history at once. Scroll in WhatsApp or import a text export.
+- Images, GIF content, audio and attachments are not translated.
+- Native acceptance used WhatsApp 2.26.46.15 with its interface in Chinese. English/Spanish WhatsApp message-envelope parsing has automated fixtures but still needs live acceptance; WhatsApp updates may affect recognition.
+- More languages, clients and platforms are planned, not currently supported.
 
-## Limitations and updates
-
-- Machine translation can misinterpret tone, short phrases and names. Verify amounts, dates and important commitments against the original.
-- Live reading covers text currently loaded by WhatsApp, not the entire chat history at once. Scroll to load older messages or import a text export.
-- Text inside images, GIFs, voice messages and attachments is not translated.
-- WhatsApp updates may affect message recognition.
-- Updates are currently manual: download a new version, quit the assistant, and replace the app in Applications. In-app update checking and one-click updates are not available yet.
-
-[Full Chinese installation guide](使用说明.txt)
+[Installation guide / 使用说明](使用说明.txt)
 
 ## About this repository
 
-This repository distributes installers and documentation. It does not contain the application's source code, chat records or user settings. Public downloads do not imply an open-source license.
+This repository distributes installers and documentation only. It contains no application source code, chat records or user settings; public downloads do not imply an open-source license.
 
-This is an independent project and is not affiliated with or endorsed by WhatsApp or Meta.
+Independent project; not affiliated with or endorsed by WhatsApp or Meta.
