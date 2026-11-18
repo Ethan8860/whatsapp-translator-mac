@@ -1,52 +1,43 @@
-WhatsApp 中英西语翻译助手（Mac）v0.2.12
+WhatsApp Translator for Mac — v0.3.0 / build 300
+WhatsApp 翻译助手：中文 / English / Español
 
-看懂英语／西语消息，用中文回复。Mac 上的应用名称为 WhatsApp Bilingual。
+安装（中文）
+1. 适用 Apple Silicon Mac、macOS 26 或更新版本、原生 WhatsApp 客户端。
+2. 将 WhatsApp Bilingual.app 拖到 Applications，从“应用程序”打开。
+3. 选择界面语言、阅读与输入语言、回复目标语言。这三项可以分别设置。
+4. 在系统设置中为 WhatsApp Bilingual 开启辅助功能；若没有条目，点 + 选择应用程序里的助手。
+5. 按设置页准备并测试所选语言包，首次下载需连接 Apple。可勾选登录启动。
+6. 点击“开始使用 WhatsApp”，打开聊天，在 WhatsApp 原输入框写回复。停笔 5 秒后转换，检查后手动发送。
 
-适用：Apple Silicon（M 系列芯片）Mac，macOS 26 或更新版本。
-本包不支持 Intel Mac 或 Windows。已在开发者的 Mac 实测；其他电脑请先小范围试用。
+日常使用
+- 阅读与输入语言：收到的消息译成此语言；也用于识别你写草稿的语言。
+- 顶部 中文 / EN / ES：回复目标。与输入语言相同时不转换。
+- 撤销：恢复此条原始草稿；未暂停时停笔 5 秒会重新翻译。暂停助手可留出措辞时间。
+- 翻译面板自动贴边、可收起；切到其他应用时隐藏。菜单栏可重新打开。
+- 原文对照用于核对；实时内容只覆盖已加载消息，更早记录可导入 WhatsApp 文本导出文件。
+- 菜单“检查更新”：匿名访问 GitHub，发现新版可查看下载页。目前不自动安装，也不后台提醒。
 
-本次更新
-停笔 5 秒后，中文草稿自动翻译成顶部所选英文或西语；继续输入重新计时。撤销恢复当前草稿，停笔 5 秒后再次翻译；暂停助手停止转换。助手不会自动发送。
-阅读区提供单条原文、重试、日期分组、字号设置及回到最新；设置页分别显示英／西语语言包状态。
+更新与卸载
+更新前退出助手，将新版替换到原 Applications 路径。设置和自动启动保留。
+签名变化后可能需在系统权限中移除旧条目，再添加当前助手。
+卸载前在设置中取消登录启动，退出助手，再删除应用和对应权限条目。
 
-安装与首次使用
-1. 将 WhatsApp Bilingual.app 拖到 Applications（应用程序），随后从“应用程序”打开。
-2. 在首次设置窗口点“打开授权设置”，为 WhatsApp Bilingual 开启辅助功能权限。
-   若列表里没有它，点系统设置中的“+”，选择应用程序里的 WhatsApp Bilingual。
-3. 按设置页提示准备语言包并测试，按 Apple 系统提示完成准备。已安装语言包时可跳过下载。
-4. 建议勾选“登录 Mac 时自动启动”，然后点“开始使用 WhatsApp”。
+要求与限制
+本软件尚未获得 Apple Developer ID 签名与公证。若被 macOS 或公司策略阻止，请联系 IT 核验或等待签名版，不要关闭安全保护。
+翻译使用 Apple 本机引擎，无需 API 密钥、Codex、Xcode 或按次付费。聊天与译文仅在运行内存中，不上传至翻译服务器。
+已验证中英西六个翻译方向返回结果，以及英文↔西语原输入框转换和撤销等操作；不能保证机器翻译准确性。
+原生实测 WhatsApp 2.26.46.15 中文界面。英／西语 WhatsApp 界面解析仍待实际验收。
+不支持 Intel Mac、Windows、网页端、手机及其他聊天软件，不翻译图片、GIF、语音或附件内部内容。
+语言包下载连接 Apple；更新检查和下载连接 GitHub。金额、日期、姓名及重要约定请核对原文。
 
-之后的使用
-- 在 WhatsApp 原输入框输入中文，停笔 5 秒后自动转换为顶部所选语言；检查后手动发送。
-- 助手只翻译，不自动发送。需要暂时停用时点“暂停”。
-- 翻译面板随 WhatsApp 贴边；无空间或全屏时在右上角。顶部箭头收起或展开。
-- 平时在菜单栏“中 / EN”。再次设置：助手“…” → “设置与语言包”。
-- 实时翻译只覆盖当前已加载文字；更早历史可导入 WhatsApp 导出的文本文件。
-
-首次打开与系统安全提示
-应用目前使用本地临时签名，尚未获得 Apple Developer ID 签名及公证。
-其他 Mac 下载后可能被 Gatekeeper 拦截。若系统拒绝打开，请交由你们 IT 核验并处理，
-或等待正式签名版；不需要关闭系统安全保护，也不需要运行终端命令。
-部分公司策略不允许未公证软件，本包不能保证在这些设备上运行。
-
-隐私与权限
-应用会通过辅助功能读取 WhatsApp 消息并替换当前中文草稿，因此需你主动授权。
-翻译在本机完成；语言包由 Apple 下载。聊天、导入记录与译文只在本次运行内存中保存。
-分发包不包含开发者的聊天、联系人、授权记录或缓存，也不需要 Codex、Xcode 或 API 密钥。
-机器翻译可能有误，金额、日期、姓名及重要约定请核对原文。
-
-问题处理
-- 单条翻译失败：先点“…” → “重试失败的翻译”；仍失败再进入首次设置测试语言包。
-- 授权后仍无效：退出助手后重开。更新后签名变化时，可能需要在权限列表移除旧条目再添加新应用。
-- WhatsApp 版本变化可能影响消息识别。当前验证版本：26.46.12。
-- 不支持图片、语音及附件内容翻译。不是 WhatsApp 官方软件。
-
-卸载
-先在首次设置中取消“登录 Mac 时自动启动”，退出助手，再删除应用。
-可在系统设置的辅助功能列表中移除助手条目。
-
-0.2.12 更新
-- 本地翻译缓存按源语言和目标语言隔离，最近使用的译文优先保留；关闭助手后缓存清空。
-- 低置信度短句参考同一发送者附近消息判断英/西语；不会将上下文上传。
-- 回复草稿正在翻译时，历史翻译队列等待；保留停笔 5 秒、撤销与暂停。
-- 已确认的独立名称保持原样；不对歧义短句强制替换。机器翻译仍可能误判语气，请结合原文确认。
+English quick start
+1. Requires Apple Silicon, macOS 26+, and native WhatsApp for Mac.
+2. Drag WhatsApp Bilingual.app into Applications and launch it.
+3. Select interface, reading/input and reply languages independently (Chinese, English, Spanish).
+4. Grant Accessibility permission in System Settings. Prepare/test the selected Apple language packs; initial downloads require internet access. Optionally enable launch at login.
+5. Open a chat and write directly in WhatsApp in your selected input language. Pause typing for 5 seconds to translate. Review and send manually: the assistant never sends messages.
+Undo restores the current original draft. It translates again after 5 seconds unless paused. Matching input/reply languages leave drafts unchanged.
+More > Check for Updates checks public GitHub releases anonymously and can open the release page. Automatic installation/background notifications are not yet available. Quit and replace the app in Applications to update; preserve its name/path and settings. A new signature may require refreshing Accessibility permission.
+The app is not Developer ID signed or notarized. Contact IT if blocked; do not disable macOS security. Translation runs locally; chats are not uploaded. Apple provides language packs, GitHub provides releases. Review important translations. Live reading covers loaded text; import exports for older history. Image/audio contents and other platforms/clients are unsupported.
+Native acceptance used Chinese-language WhatsApp 2.26.46.15. English/Spanish WhatsApp envelope parsing is fixture-tested, not yet live-accepted. The assistant UI itself supports all three languages.
+Independent project, not affiliated with WhatsApp or Meta.
