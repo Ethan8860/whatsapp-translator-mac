@@ -1,8 +1,8 @@
 # WhatsApp 翻译助手（Mac）
 
-用中文、英文或西语阅读和回复 WhatsApp 消息。**v0.3.2 · 构建 302**。
+用中文、英文或西语阅读和回复 WhatsApp 消息。**v0.3.3 · 构建 303**。
 
-[English](README.md) · [下载安装包](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.2/WhatsApp-Translator-0.3.2-Mac.dmg) · [同事分享 ZIP](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.2/WhatsApp-Translator-0.3.2-Mac-Package.zip)
+[English](README.md) · [下载安装包](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.3/WhatsApp-Translator-0.3.3-Mac.dmg) · [同事分享 ZIP](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.3/WhatsApp-Translator-0.3.3-Mac-Package.zip)
 
 ## 三种语言设置
 
@@ -29,3 +29,5 @@
 其他语言、Windows、Intel Mac、网页端、手机及其他聊天客户端尚不支持。
 
 [完整安装与使用说明](使用说明.txt)。此仓库仅分发安装包和文档，不包含源码、聊天或用户设置。独立项目，非 WhatsApp／Meta 官方产品。
+
+本版新增法语、日语翻译选项，界面仍提供中、英、西三语。最低系统为 macOS 26。已在 Apple Silicon 验证法语和日语草稿；Intel 实机仍待验收。
