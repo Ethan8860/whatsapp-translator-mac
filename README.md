@@ -2,9 +2,9 @@
 
 **Read and reply in Chinese, English or Spanish — directly alongside WhatsApp.**
 
-[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.0/WhatsApp-Translator-0.3.0-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
+[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.1/WhatsApp-Translator-0.3.1-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
 
-A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.3.0 · build 300**.
+A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.3.1 · build 301**.
 
 ## Choose your languages
 
@@ -31,15 +31,15 @@ Requires an **Apple Silicon Mac, macOS 26 or later**, and the native WhatsApp ap
 3. Grant Accessibility permission in System Settings. Prepare and test the selected Apple language packs; initial downloads require internet access.
 4. Optionally enable launch at login, then choose Start Using WhatsApp.
 
-[Shareable installer ZIP](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.0/WhatsApp-Translator-0.3.0-Mac-Package.zip) includes Chinese and English instructions in the guide.
+[Shareable installer ZIP](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.1/WhatsApp-Translator-0.3.1-Mac-Package.zip) includes Chinese and English instructions in the guide.
 
 The app is locally signed, without Apple Developer ID signing or notarization. macOS or company policies may block it. Ask your IT administrator to review it or wait for a signed release; do not disable system security protections.
 
 ## Updates
 
-Open **More → Check for Updates**. The check anonymously reads public GitHub release information. If a newer version is available, View Release opens its download page. **One-click installation and automatic background update notifications are not implemented yet.**
+Open **More → Check for Updates**. The check anonymously reads public GitHub release information. If a newer version is available, choose **Download and Update**. The assistant verifies the installer and restarts.
 
-To update, quit the assistant and replace the app in Applications. Keep the same installed application name/path to retain settings and launch-at-login behavior. macOS may require refreshing its Accessibility permission after a signature change.
+To install this release from v0.3.0, quit the assistant and replace the app in Applications. Keep the same installed application name/path to retain settings and launch-at-login behavior. macOS may require refreshing its Accessibility permission after a signature change.
 
 ## Privacy and limits
 
