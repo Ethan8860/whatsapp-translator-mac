@@ -1,4 +1,4 @@
-WhatsApp Translator for Mac — v0.3.2 / build 302
+WhatsApp Translator for Mac — v0.3.3 / build 303
 WhatsApp 翻译助手：中文 / English / Español
 
 安装（中文）
@@ -41,3 +41,5 @@ More > Check for Updates checks public GitHub releases anonymously and offers Do
 The app is not Developer ID signed or notarized. Contact IT if blocked; do not disable macOS security. Translation runs locally; chats are not uploaded. Apple provides language packs, GitHub provides releases. Review important translations. Live reading covers loaded text; import exports for older history. Image/audio contents and other platforms/clients are unsupported.
 Native acceptance used Chinese-language WhatsApp 2.26.46.15. English/Spanish WhatsApp envelope parsing is fixture-tested, not yet live-accepted. The assistant UI itself supports all three languages.
 Independent project, not affiliated with WhatsApp or Meta.
+
+本版新增法语、日语翻译选项，界面仍提供中、英、西三语。最低系统为 macOS 26。已在 Apple Silicon 验证法语和日语草稿；Intel 实机仍待验收。
