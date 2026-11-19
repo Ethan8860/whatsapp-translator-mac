@@ -1,4 +1,4 @@
-WhatsApp Translator for Mac — v0.3.0 / build 300
+WhatsApp Translator for Mac — v0.3.1 / build 301
 WhatsApp 翻译助手：中文 / English / Español
 
 安装（中文）
@@ -15,7 +15,7 @@ WhatsApp 翻译助手：中文 / English / Español
 - 撤销：恢复此条原始草稿；未暂停时停笔 5 秒会重新翻译。暂停助手可留出措辞时间。
 - 翻译面板自动贴边、可收起；切到其他应用时隐藏。菜单栏可重新打开。
 - 原文对照用于核对；实时内容只覆盖已加载消息，更早记录可导入 WhatsApp 文本导出文件。
-- 菜单“检查更新”：匿名访问 GitHub，发现新版可查看下载页。目前不自动安装，也不后台提醒。
+- 菜单“检查更新”：匿名访问 GitHub，发现新版后可点击“下载并更新”。助手会校验安装包并重启。
 
 更新与卸载
 更新前退出助手，将新版替换到原 Applications 路径。设置和自动启动保留。
@@ -37,7 +37,7 @@ English quick start
 4. Grant Accessibility permission in System Settings. Prepare/test the selected Apple language packs; initial downloads require internet access. Optionally enable launch at login.
 5. Open a chat and write directly in WhatsApp in your selected input language. Pause typing for 5 seconds to translate. Review and send manually: the assistant never sends messages.
 Undo restores the current original draft. It translates again after 5 seconds unless paused. Matching input/reply languages leave drafts unchanged.
-More > Check for Updates checks public GitHub releases anonymously and can open the release page. Automatic installation/background notifications are not yet available. Quit and replace the app in Applications to update; preserve its name/path and settings. A new signature may require refreshing Accessibility permission.
+More > Check for Updates checks public GitHub releases anonymously and offers Download and Update when a newer version is available. The assistant verifies the download and restarts. Quit and replace the app in Applications to update; preserve its name/path and settings. A new signature may require refreshing Accessibility permission.
 The app is not Developer ID signed or notarized. Contact IT if blocked; do not disable macOS security. Translation runs locally; chats are not uploaded. Apple provides language packs, GitHub provides releases. Review important translations. Live reading covers loaded text; import exports for older history. Image/audio contents and other platforms/clients are unsupported.
 Native acceptance used Chinese-language WhatsApp 2.26.46.15. English/Spanish WhatsApp envelope parsing is fixture-tested, not yet live-accepted. The assistant UI itself supports all three languages.
 Independent project, not affiliated with WhatsApp or Meta.
