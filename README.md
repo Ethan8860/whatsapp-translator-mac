@@ -2,9 +2,9 @@
 
 **Read and reply in Chinese, English or Spanish — directly alongside WhatsApp.**
 
-[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.5/WhatsApp-Translator-0.3.5-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
+[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.6/WhatsApp-Translator-0.3.6-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
 
-A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.3.5 · build 305**.
+A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.3.6 · build 306**.
 
 ## Choose your languages
 
@@ -31,7 +31,7 @@ Requires an **Apple Silicon Mac, macOS 26 or later**, and the native WhatsApp ap
 3. Grant Accessibility permission in System Settings. Prepare and test the selected Apple language packs; initial downloads require internet access.
 4. Optionally enable launch at login, then choose Start Using WhatsApp.
 
-[Shareable installer ZIP](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.5/WhatsApp-Translator-0.3.5-Mac-Package.zip) includes Chinese and English instructions in the guide.
+[Shareable installer ZIP](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.6/WhatsApp-Translator-0.3.6-Mac-Package.zip) includes Chinese and English instructions in the guide.
 
 The app is locally signed, without Apple Developer ID signing or notarization. macOS or company policies may block it. Ask your IT administrator to review it or wait for a signed release; do not disable system security protections.
 
