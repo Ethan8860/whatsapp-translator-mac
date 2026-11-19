@@ -1,14 +1,14 @@
 # WhatsApp 翻译助手（Mac）
 
-用中文、英文或西语阅读和回复 WhatsApp 消息。**v0.3.6 · 构建 306**。
+用八种语言阅读和回复 WhatsApp 消息。**v0.3.7 · 构建 307**。
 
-[English](README.md) · [下载安装包](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.6/WhatsApp-Translator-0.3.6-Mac.dmg) · [同事分享 ZIP](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.6/WhatsApp-Translator-0.3.6-Mac-Package.zip)
+[English](README.md) · [下载安装包](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.7/WhatsApp-Translator-0.3.7-Mac.dmg)
 
 ## 三种语言设置
 
-- 界面语言：中文、English、Español，仅影响菜单和提示。
+- 界面语言：简体中文、英语、西班牙语、法语、德语。菜单、提示及选项名称随界面语言切换。
 - 阅读与输入语言：收到的消息译成此语言，你也用此语言写回复。
-- 回复目标语言：顶部 中文 / EN / ES 切换；与输入语言相同时不转换草稿。
+- 回复目标语言：在聊天译文顶部选择；与输入语言相同时不转换草稿。
 
 在 WhatsApp 原输入框写完，停笔 5 秒自动翻译，检查后由你手动发送。助手不会自动发送。撤销恢复原稿，未暂停时停笔 5 秒再次翻译；措辞时可暂停。
 
@@ -26,8 +26,6 @@
 
 翻译在本机完成，聊天、导入记录和译文只保存在运行内存；语言包下载连接 Apple，检查更新及下载安装包连接 GitHub。实时阅读仅覆盖已加载文本，可滚动或导入历史文本；不翻译图片、GIF、音频及附件内容。
 
-其他语言、Windows、Intel Mac、网页端、手机及其他聊天客户端尚不支持。
+Windows、Intel Mac、网页端、手机及其他聊天客户端尚不支持。
 
 [完整安装与使用说明](使用说明.txt)。此仓库仅分发安装包和文档，不包含源码、聊天或用户设置。独立项目，非 WhatsApp／Meta 官方产品。
-
-本版新增法语、日语翻译选项，界面仍提供中、英、西三语。最低系统为 macOS 26。已在 Apple Silicon 验证法语和日语草稿；Intel 实机仍待验收。
