@@ -2,9 +2,13 @@
 
 **Read and reply in eight languages — directly alongside WhatsApp.**
 
-[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.7/WhatsApp-Translator-0.3.7-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
+[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.9/WhatsApp-Translator-0.3.9-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
 
-A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.3.7 · build 307**.
+A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.3.9 · build 309**.
+
+## What’s new
+
+Language settings now use compact rows. Installed language packs show Ready. User-sent media labels stay in the conversation, and the collapsed panel keeps only its toolbar. See [release notes](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.3.9) for details.
 
 ## Choose your languages
 
@@ -12,7 +16,7 @@ A companion for the native WhatsApp desktop app, using Apple's on-device transla
 - **Reading and input language:** the language you read translations in and write your drafts in.
 - **Reply language:** the language your draft should become. Open the reply selector above the conversation. Options use the current interface language. If it matches your input language, drafts stay unchanged.
 
-The eight translation languages are Simplified Chinese, English, Spanish, French, Japanese, Brazilian Portuguese, German and Italian. English↔Spanish drafts, Undo, Pause and Resume were also tested in a real WhatsApp composer. This is not a guarantee of translation accuracy.
+The eight translation languages are Simplified Chinese, English, Spanish, French, Japanese, Portuguese, German and Italian. English↔Spanish drafts, Undo, Pause and Resume were also tested in a real WhatsApp composer. This is not a guarantee of translation accuracy.
 
 ## How it works
 
@@ -28,7 +32,7 @@ Requires an **Apple Silicon Mac, macOS 26 or later**, and the native WhatsApp ap
 
 1. Download the DMG and drag **WhatsApp Bilingual.app** into **Applications**.
 2. Open the app and choose interface, reading/input and reply languages.
-3. Grant Accessibility permission in System Settings. Prepare and test the selected Apple language packs; initial downloads require internet access.
+3. Grant Accessibility permission in System Settings. Download missing Apple language packs; initial downloads require internet access.
 4. Optionally enable launch at login, then choose Start Using WhatsApp.
 
 
