@@ -1,4 +1,4 @@
-WhatsApp Translator for Mac — v0.3.7 / build 307
+WhatsApp Translator for Mac — v0.3.9 / build 309
 WhatsApp 翻译助手：简体中文 / English / Español / Français / Deutsch
 
 安装（中文）
@@ -6,7 +6,7 @@ WhatsApp 翻译助手：简体中文 / English / Español / Français / Deutsch
 2. 将 WhatsApp Bilingual.app 拖到 Applications，从“应用程序”打开。
 3. 选择界面语言、阅读与输入语言、回复目标语言。这三项可以分别设置。
 4. 在系统设置中为 WhatsApp Bilingual 开启辅助功能；若没有条目，点 + 选择应用程序里的助手。
-5. 按设置页准备并测试所选语言包，首次下载需连接 Apple。可勾选登录启动。
+5. 按设置页下载缺少的所选语言包，首次下载需连接 Apple。可勾选登录启动。
 6. 点击“开始使用 WhatsApp”，打开聊天，在 WhatsApp 原输入框写回复。停笔 5 秒后转换，检查后手动发送。
 
 日常使用
@@ -34,7 +34,7 @@ English quick start
 1. Requires Apple Silicon, macOS 26+, and native WhatsApp for Mac.
 2. Drag WhatsApp Bilingual.app into Applications and launch it.
 3. Select interface, reading/input and reply languages independently (Chinese, English, Spanish).
-4. Grant Accessibility permission in System Settings. Prepare/test the selected Apple language packs; initial downloads require internet access. Optionally enable launch at login.
+4. Grant Accessibility permission in System Settings. Download missing Apple language packs; initial downloads require internet access. Optionally enable launch at login.
 5. Open a chat and write directly in WhatsApp in your selected input language. Pause typing for 5 seconds to translate. Review and send manually: the assistant never sends messages.
 Undo restores the current original draft. It translates again after 5 seconds unless paused. Matching input/reply languages leave drafts unchanged.
 More > Check for Updates checks public GitHub releases anonymously and can open the release page. Automatic installation/background notifications are not yet available. Quit and replace the app in Applications to update; preserve its name/path and settings. A new signature may require refreshing Accessibility permission.
