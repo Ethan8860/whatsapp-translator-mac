@@ -8,7 +8,7 @@ A companion for the native WhatsApp desktop app, using Apple's on-device transla
 
 ## What’s new
 
-Manage offline languages in searchable Ready and Available lists. Downloaded languages appear in all three selectors. Media rows now offer a way back to WhatsApp when the desktop client exposes a matching source. See [release notes](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.4.0) for details.
+Manage offline languages in searchable Ready and Available lists. Downloaded languages appear in all three selectors. See [release notes](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.4.0) for details.
 
 ## Choose your languages
 
@@ -16,7 +16,7 @@ Manage offline languages in searchable Ready and Available lists. Downloaded lan
 - **Reading and input language:** the language you read translations in and write your drafts in.
 - **Reply language:** the language your draft should become. Open the reply selector above the conversation. Options use the current interface language. If it matches your input language, drafts stay unchanged.
 
-The eight translation languages are Simplified Chinese, English, Spanish, French, Japanese, Portuguese, German and Italian. English↔Spanish drafts, Undo, Pause and Resume were also tested in a real WhatsApp composer. This is not a guarantee of translation accuracy.
+The eight translation languages are Simplified Chinese, English, Spanish, French, Japanese, Portuguese, German and Italian.
 
 ## How it works
 
@@ -48,10 +48,8 @@ To install this release from v0.3.0, quit the assistant and replace the app in A
 
 Translation is processed locally; chat text, imported records and translations stay in memory for the running session. The assistant does not upload chat content to a translation server. Apple supplies language packs; GitHub supplies update information and downloads. No Codex, Xcode or paid translation account is needed.
 
-- Machine translation may misread short phrases, names or tone. Review important amounts, dates and commitments.
 - Live reading covers currently loaded text, not the entire history at once. Scroll in WhatsApp or import a text export.
 - Images, GIF content, audio and attachments are not translated.
-- Native acceptance used WhatsApp 2.26.46.15 with its interface in Chinese. English/Spanish WhatsApp message-envelope parsing has automated fixtures but still needs live acceptance; WhatsApp updates may affect recognition.
 - More languages, clients and platforms are planned, not currently supported.
 
 [Installation guide / 使用说明](使用说明.txt)
