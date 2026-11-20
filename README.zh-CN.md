@@ -6,7 +6,7 @@
 
 ## 本次更新
 
-离线语言包按已就绪和可下载分组，支持搜索、取消、重试和移除。已就绪语言进入三个选择器。媒体保留对应条目，客户端提供可用引用时可定位原消息。查看[版本说明](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.4.0)或[历史版本](https://github.com/Ethan8860/whatsapp-translator-mac/releases)。
+离线语言包按已就绪和可下载分组，支持搜索、取消、重试和移除。已就绪语言进入三个选择器。查看[版本说明](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.4.0)或[历史版本](https://github.com/Ethan8860/whatsapp-translator-mac/releases)。
 
 ## 三种语言设置
 
@@ -26,7 +26,6 @@
 
 ## 范围与限制
 
-中、英、西语六个方向已在应用环境测试，英文↔西语输入框转换、撤销、暂停和恢复已实测；机器翻译仍可能有误。原生实测采用 WhatsApp 2.26.46.15 中文界面，英／西语 WhatsApp 界面的消息解析仍待实际验收。
 
 翻译在本机完成，聊天、导入记录和译文只保存在运行内存；语言包下载连接 Apple，检查更新及下载安装包连接 GitHub。实时阅读仅覆盖已加载文本，可滚动或导入历史文本；不翻译图片、GIF、音频及附件内容。
 
