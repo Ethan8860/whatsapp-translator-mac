@@ -1,8 +1,12 @@
 # WhatsApp 翻译助手（Mac）
 
-用八种语言阅读和回复 WhatsApp 消息。**v0.3.7 · 构建 307**。
+用八种语言阅读和回复 WhatsApp 消息。**v0.3.9 · 构建 309**。
 
-[English](README.md) · [下载安装包](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.7/WhatsApp-Translator-0.3.7-Mac.dmg)
+[English](README.md) · [下载安装包](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.9/WhatsApp-Translator-0.3.9-Mac.dmg)
+
+## 本次更新
+
+语言设置改用紧凑列表，已安装语言包可直接使用。媒体保留原标签，收起时只保留工具条。查看[版本说明](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.3.9)或[历史版本](https://github.com/Ethan8860/whatsapp-translator-mac/releases)。
 
 ## 三种语言设置
 
@@ -14,7 +18,7 @@
 
 ## 安装与更新
 
-仅支持 Apple Silicon Mac、macOS 26 或更新系统，以及原生 WhatsApp 客户端。拖拽安装到 Applications 后，按引导开启辅助功能、准备所选语言包，可选择登录启动。无需 API 密钥、Codex 或 Xcode。
+仅支持 Apple Silicon Mac、macOS 26 或更新系统，以及原生 WhatsApp 客户端。拖拽安装到 Applications 后，按引导开启辅助功能、按需下载语言包，可选择登录启动。无需 API 密钥、Codex 或 Xcode。
 
 菜单“检查更新”连接公开 GitHub 发行信息；发现新版后可选择“下载并更新”，助手会校验安装包并重启。从 v0.3.0 升级时，请先退出助手，将新版替换到原应用路径，保留设置和自动启动。签名变化可能要求刷新系统授权。
 
