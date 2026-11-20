@@ -2,17 +2,17 @@
 
 **Read and reply in eight languages — directly alongside WhatsApp.**
 
-[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.9/WhatsApp-Translator-0.3.9-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
+[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.4.0/WhatsApp-Translator-0.4.0-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
 
-A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.3.9 · build 309**.
+A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.4.0 · build 400**.
 
 ## What’s new
 
-Language settings now use compact rows. Installed language packs show Ready. User-sent media labels stay in the conversation, and the collapsed panel keeps only its toolbar. See [release notes](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.3.9) for details.
+Manage offline languages in searchable Ready and Available lists. Downloaded languages appear in all three selectors. Media rows now offer a way back to WhatsApp when the desktop client exposes a matching source. See [release notes](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.4.0) for details.
 
 ## Choose your languages
 
-- **Interface language:** Simplified Chinese, English, Spanish, French or German, independently of translation settings.
+- **Interface language:** Simplified Chinese, English and Spanish by default, with five downloadable extensions, independently of translation settings.
 - **Reading and input language:** the language you read translations in and write your drafts in.
 - **Reply language:** the language your draft should become. Open the reply selector above the conversation. Options use the current interface language. If it matches your input language, drafts stay unchanged.
 
