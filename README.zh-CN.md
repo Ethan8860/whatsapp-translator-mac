@@ -1,16 +1,16 @@
 # WhatsApp 翻译助手（Mac）
 
-用八种语言阅读和回复 WhatsApp 消息。**v0.3.9 · 构建 309**。
+用八种语言阅读和回复 WhatsApp 消息。**v0.4.0 · 构建 400**。
 
-[English](README.md) · [下载安装包](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.3.9/WhatsApp-Translator-0.3.9-Mac.dmg)
+[English](README.md) · [下载安装包](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.4.0/WhatsApp-Translator-0.4.0-Mac.dmg)
 
 ## 本次更新
 
-语言设置改用紧凑列表，已安装语言包可直接使用。媒体保留原标签，收起时只保留工具条。查看[版本说明](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.3.9)或[历史版本](https://github.com/Ethan8860/whatsapp-translator-mac/releases)。
+离线语言包按已就绪和可下载分组，支持搜索、取消、重试和移除。已就绪语言进入三个选择器。媒体保留对应条目，客户端提供可用引用时可定位原消息。查看[版本说明](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.4.0)或[历史版本](https://github.com/Ethan8860/whatsapp-translator-mac/releases)。
 
 ## 三种语言设置
 
-- 界面语言：简体中文、英语、西班牙语、法语、德语。菜单、提示及选项名称随界面语言切换。
+- 界面语言：默认简体中文、英语和西班牙语，另外五种语言可按需启用。菜单、提示及选项名称随界面语言切换。
 - 阅读与输入语言：收到的消息译成此语言，你也用此语言写回复。
 - 回复目标语言：在聊天译文顶部选择；与输入语言相同时不转换草稿。
 
