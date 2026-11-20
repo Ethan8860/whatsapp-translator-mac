@@ -26,7 +26,6 @@ WhatsApp 翻译助手：简体中文 / English / Español / Français / Deutsch
 本软件尚未获得 Apple Developer ID 签名与公证。若被 macOS 或公司策略阻止，请联系 IT 核验或等待签名版，不要关闭安全保护。
 翻译使用 Apple 本机引擎，无需 API 密钥、Codex、Xcode 或按次付费。聊天与译文仅在运行内存中，不上传至翻译服务器。
 已验证中英西六个翻译方向返回结果，以及英文↔西语原输入框转换和撤销等操作；不能保证机器翻译准确性。
-原生实测 WhatsApp 2.26.46.15 中文界面。英／西语 WhatsApp 界面解析仍待实际验收。
 不支持 Intel Mac、Windows、网页端、手机及其他聊天软件，不翻译图片、GIF、语音或附件内部内容。
 语言包下载连接 Apple；更新检查和下载连接 GitHub。金额、日期、姓名及重要约定请核对原文。
 
@@ -39,5 +38,4 @@ English quick start
 Undo restores the current original draft. It translates again after 5 seconds unless paused. Matching input/reply languages leave drafts unchanged.
 More > Check for Updates checks public GitHub releases anonymously and can open the release page. Automatic installation/background notifications are not yet available. Quit and replace the app in Applications to update; preserve its name/path and settings. A new signature may require refreshing Accessibility permission.
 The app is not Developer ID signed or notarized. Contact IT if blocked; do not disable macOS security. Translation runs locally; chats are not uploaded. Apple provides language packs, GitHub provides releases. Review important translations. Live reading covers loaded text; import exports for older history. Image/audio contents and other platforms/clients are unsupported.
-Native acceptance used Chinese-language WhatsApp 2.26.46.15. English/Spanish WhatsApp envelope parsing is fixture-tested, not yet live-accepted. The assistant UI itself supports Simplified Chinese, English, Spanish, French and German.
 Independent project, not affiliated with WhatsApp or Meta.
