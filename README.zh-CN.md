@@ -1,12 +1,12 @@
 # WhatsApp 翻译助手（Mac）
 
-用八种语言阅读和回复 WhatsApp 消息。**v0.4.1 · 构建 401**。
+用八种语言阅读和回复 WhatsApp 消息。**v0.4.2 · 构建 402**。
 
-[English](README.md) · [下载安装包](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.4.1/WhatsApp-Translator-0.4.1-Mac.dmg)
+[English](README.md) · [下载安装包](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.4.2/WhatsApp-Translator-0.4.2-Mac.dmg)
 
 ## 本次更新
 
-离线语言包按已就绪和可下载分组，支持搜索、取消、重试和移除。已就绪语言进入三个选择器。查看[版本说明](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.4.1)或[历史版本](https://github.com/Ethan8860/whatsapp-translator-mac/releases)。
+离线语言包按已就绪和可下载分组，支持搜索、取消、重试和移除。已就绪语言进入三个选择器。查看[版本说明](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.4.2)或[历史版本](https://github.com/Ethan8860/whatsapp-translator-mac/releases)。
 
 ## 三种语言设置
 
