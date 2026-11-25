@@ -1,4 +1,4 @@
-WhatsApp Translator for Mac — v0.4.0 / build 400
+WhatsApp Translator for Mac — v0.4.1 / build 401
 WhatsApp 翻译助手：简体中文 / English / Español / Français / Deutsch
 
 安装（中文）
