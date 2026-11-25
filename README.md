@@ -2,13 +2,13 @@
 
 **Read and reply in eight languages — directly alongside WhatsApp.**
 
-[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.4.1/WhatsApp-Translator-0.4.1-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
+[简体中文](README.zh-CN.md) · [Download for Mac](https://github.com/Ethan8860/whatsapp-translator-mac/releases/download/v0.4.2/WhatsApp-Translator-0.4.2-Mac.dmg) · [All releases](https://github.com/Ethan8860/whatsapp-translator-mac/releases)
 
-A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.4.1 · build 401**.
+A companion for the native WhatsApp desktop app, using Apple's on-device translation. No translation API key or per-request fees. **v0.4.2 · build 402**.
 
 ## What’s new
 
-Manage offline languages in searchable Ready and Available lists. Downloaded languages appear in all three selectors. See [release notes](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.4.1) for details.
+Manage offline languages in searchable Ready and Available lists. Downloaded languages appear in all three selectors. See [release notes](https://github.com/Ethan8860/whatsapp-translator-mac/releases/tag/v0.4.2) for details.
 
 ## Choose your languages
 
